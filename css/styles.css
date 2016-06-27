@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-image: url("../img/wedding.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+}
+
+.brand  {
+  font-size: 50px;
+  float: left;
+}
+
+span {
+  float:right;
+  padding: 5px;
+
+}
+
+.heading {
+  padding-top: 200px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  margin-top: 50px;
+  background-color: #ff9999;
+  color: white;
+  text-transform: uppercase;
+  width: 175px;
+  height: 50px;
+  border: none;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 72px;
+  margin-top: -35px;
+}
+
+.content {
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-border {
+  width: 150px;
+  height: 150px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
