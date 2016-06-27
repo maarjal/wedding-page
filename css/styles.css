@@ -139,7 +139,6 @@ body {
 .hero:after {
     content:'';
     position: absolute;
-    /*top: 100%;*/
     left: 50%;
     margin-left: -50px;
     width: 0;
