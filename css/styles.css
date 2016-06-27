@@ -11,18 +11,55 @@
   background-image: url("../img/wedding.jpg");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 700px;
   color: white;
 }
 
+
+
+.arrow {
+  margin-top: -72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -218px;
+  border-right: 200px solid #f9f8f7;
+  border-left: 200px solid #f9f8f7;
+  background: none;
+}
+
+.side1 {
+  width: 372px;
+  height: 90px;
+  background-color: #f9f8f7;
+}
+
+.side2 {
+  width: 500px;
+  height: 90px;
+  background-color: #f9f8f7;
+  display: block;
+  margin-top: -75px;
+  margin-left: -650px;
+  float: left;
+}
+
+
 .brand  {
-  font-size: 50px;
+  font-size: 40px;
+  float: left;
+  padding-top: 15px;
+}
+
+.logo {
+  display: inline;
+  padding: 5px;
   float: left;
 }
 
 span {
   float:right;
   padding: 5px;
+  text-transform: uppercase;
 
 }
 
@@ -30,10 +67,15 @@ span {
   padding-top: 200px;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+a {
+  color: white;
 }
 
 button {
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: #ff9999;
   color: white;
   text-transform: uppercase;
@@ -43,19 +85,25 @@ button {
 }
 
 h2 {
-  text-decoration: underline;
   font-size: 48px;
+}
+
+hr {
+  width: 770px;
+  margin-top: -40px;
 }
 
 h1 {
   font-size: 72px;
   margin-top: -35px;
+  padding-top: 20px;
 }
 
 .content {
   width: 300px;
   float: left;
   text-align: center;
+  padding: 25px;
 }
 
 img {
@@ -74,4 +122,29 @@ img {
   padding-top: 35px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: 160px;
+  margin-right: 100px;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #6a6a6a;
+  background-color: #f9f8f7;
+}
+
+.hero:after {
+    content:'';
+    position: absolute;
+    /*top: 100%;*/
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px hotpink;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
 }
